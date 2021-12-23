@@ -1,13 +1,13 @@
 CONCURRENT SESSIONS
 -Goal:estimate the max number of concurrent sessions for any given time based off a sample of customer call data
 
--Current approach: 
+-First approach: 
 --For every second within the sample's time range, check if the session falls between the start time and end time of the session.
 --Shortcomings:performance
 
--Future approach:
+-Current approach:
 --For every session check if the end time falls between the start time and end time of other sessions
---Can optimize by just looking at the next 5-10 sessions
+--This just checks how many sessions one overlaps with. Not how many were running concurrently. 
 
 -After counting the number of sessions for a sample, multiply it by the current sales projections estimate the future concurrent sessions
 
@@ -17,4 +17,4 @@ Max Concurrent Sessions: 9 - ran script of counting concurrent sessions on sampl
 
 Projections for EOY 2022
 Devices:5500
-Sessions: 9*2<double the projection>*5500/16 = ~600
+Sessions: 9*5500/160 = ~300

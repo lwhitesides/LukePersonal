@@ -13,8 +13,8 @@ CONCURRENT SESSIONS
 
 Results from 12/18/21 - 12/20/21 SLSH sample
 Devices:~160
-Max Concurrent Sessions: 3 - ran script of counting concurrent sessions on sample of SLHS sessions from 12/18/21 to 12/20/21
+Max Concurrent Sessions: 9 - ran script of counting concurrent sessions on sample of SLHS sessions from 12/18/21 to 12/20/21
 
 Projections for EOY 2022
 Devices:5500
-Sessions: 3*2<double the projection>*5500/16 = ~200
+Sessions: 9*2<double the projection>*5500/16 = ~600
